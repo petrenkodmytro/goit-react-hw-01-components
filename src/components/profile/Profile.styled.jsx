@@ -5,7 +5,7 @@ export const Container = styled.div`
   margin-top: 20px;
   border-radius: 15px;
   background-color: ${props => {
-    return props.theme.colors.profile; // из темы передаем цвет с помощью функции
+    return props.theme.colors.main; // из темы передаем цвет с помощью функции
   }};
 `;
 
@@ -22,7 +22,9 @@ export const Avatar = styled.img`
   width: 200px;
   padding: 5px;
   border-radius: 50%;
-  background-color: #b7e6f5;
+  background-color: ${props => {
+    return props.theme.colors.accent; // из темы передаем цвет с помощью функции
+  }};
 `;
 
 export const Name = styled.p`
@@ -48,7 +50,9 @@ export const ListStats = styled.ul`
   border-top: 1px solid rgb(158, 152, 152);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #cbe1f1;
+  background-color: ${props => {
+    return props.theme.colors.accent; // из темы передаем цвет с помощью функции
+  }};
 `;
 
 export const StatItem = styled.li`

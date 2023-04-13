@@ -6,8 +6,8 @@ import { App } from 'components/App';
 
 const theme = {
   colors: {
-    black: '#212121',
-    profile:'#f2f0ec',
+    accent: '#b7e6f5',
+    main:'#f2f0ec',
   },
 };
 
