@@ -12,6 +12,7 @@ export const Friend = styled.div`
   background-color: ${props => {
     return props.theme.colors.main; // из темы передаем цвет с помощью функции
   }};
+  box-shadow: 3px 5px 7px -1px rgba(48, 154, 246, 0.23);
 `;
 
 export const Status = styled.span`
